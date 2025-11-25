@@ -20,3 +20,5 @@ src/**/*.txt
 !manual.txt
 
 target/
+
+.DS_Store
