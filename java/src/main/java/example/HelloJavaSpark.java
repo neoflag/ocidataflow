@@ -1,6 +1,5 @@
 package example;
 
-import java.sql.Time;
 import java.util.*;
 
 import org.apache.spark.sql.SparkSession;
@@ -23,8 +22,8 @@ import org.apache.spark.sql.*;
  */
 public class HelloJavaSpark {
         // Customize these before you start.
-        private static String inputPath = "oci://<bucket>@<tenancy>/fake_data.csv";
-        private static String outputPath = "oci://<bucket>@<tenancy>/fake_data.parquet";
+        // private static String inputPath = "oci://<bucket>@<tenancy>/fake_data.csv";
+        // private static String outputPath = "oci://<bucket>@<tenancy>/fake_data.parquet";
 
         public static void main(String[] args) throws Exception {
                 // Get our Spark session.
