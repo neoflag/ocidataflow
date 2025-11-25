@@ -21,7 +21,6 @@ import org.apache.spark.sql.*;
  * oci os object put --bucket-name <bucket> --file fake_data.csv
  *
  */
-
 public class HelloJavaSpark {
         // Customize these before you start.
         private static String inputPath = "oci://<bucket>@<tenancy>/fake_data.csv";
