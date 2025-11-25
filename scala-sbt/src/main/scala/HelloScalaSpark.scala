@@ -4,7 +4,7 @@ object HelloScalaSpark {
   def main(args: Array[String]): Unit = {
     val spark = SparkSession.builder()
       .appName("Hello ScalaSpark Example")
-      // .master("local[*]")
+      .master("local[*]")  // 로컬 실행, 클러스터 환경에서는 제거
       .getOrCreate()
 
     import spark.implicits._
