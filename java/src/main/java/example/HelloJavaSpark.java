@@ -31,7 +31,7 @@ public class HelloJavaSpark {
                 // Get our Spark session.
                 SparkSession spark = SparkSession.builder()
                                 .appName("CreateDataFrameExample")
-                                .master("local[*]") // 로컬 실행
+                                .master("local[*]") // 로컬 실행, 클러스터 환경에서는 제거
                                 .getOrCreate();
 
                 // 데이터 준비
